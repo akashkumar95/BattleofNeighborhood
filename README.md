@@ -21,3 +21,6 @@ This project analyses various aspects such as **population density, recreational
 # Data requirements <a name="requirements"></a>
 
 Various aspects such as **list of areas** in the city, **population distribution**, **recreational spots**, available **restaurants** in each locality, etc. are required for analysing our problem. Let us discuss the collection of these data in the following section.
+
+# Data collection
+The primary data to be collected is list of **latitudes and longitudes** of Chennai city. Let us collect this information from https://chennaiiq.com/chennai/latitude_longitude_areas.asp. We will be using **BeautifulSoup** to **scrap** the necessary details from the above link. The processed data will be passed to **Foursquare API** in order to extract further information regarding the localities.
