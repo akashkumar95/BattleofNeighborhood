@@ -7,7 +7,7 @@
 *   [Data requirements](#requirements)
 *   [Data collection](#collection)
 *   [Data visualization](#visual)
-*   [Data understanding]
+*   [Data understanding](#understanding)
 *   [Data analytics]
 *   [Model evaluation]
 *   [Result analysis]
@@ -25,5 +25,18 @@ Various aspects such as **list of areas** in the city, **population distribution
 ## Data collection <a name="collections"></a>
 The primary data to be collected is list of **latitudes and longitudes** of Chennai city. Let us collect this information from https://chennaiiq.com/chennai/latitude_longitude_areas.asp. We will be using **BeautifulSoup** to **scrap** the necessary details from the above link. The processed data will be passed to **Foursquare API** in order to extract further information regarding the localities.
 
-# Data visualization <a name="visual"></a>
+## Data visualization <a name="visual"></a>
 **Follium** is used to plot the **geographical data** and visualize the Chennai city. Further **bar graphs** will be used to have a low level visualization later in this project.
+
+<p align="center">
+  <img src="images/1_map.png">
+</p>
+
+## Data understanding <a name="understanding"></a>
+
+Let's try to understand the available raw data. First let us **group the data** based on the **neighborhood**. Then we shall pick **top 10 common venues** for each neighborhood. By doing so we will get a better clarity on the data distribution. 
+
+<p align="center">
+  <img src="images/2_venues.png">
+</p>
+
