@@ -10,7 +10,7 @@
 *   [Data understanding](#understanding)
 *   [Data analytics](#analytics)
 *   [Model evaluation](#model)
-*   [Result analysis]
+*   [Result analysis](#result)
 
 ## **Business understanding** <a name="intro"></a>
 
@@ -52,4 +52,28 @@ The model is evaluated by **silhouette metrics** and an optimal **value of K** i
 
 <p align="center">
   <img src="images/3_kval.png">
+</p>
+
+<p align="center">
+  <img src="images/4_cluster.png">
+</p>
+
+## Result Analysis:<a name="result"></a>
+
+It can be observed that clusters 1-4, 8, 11,12 and 14 has quite a high number of food outlets. Though the count seems less in clusters 5,6,7 and 9, it has good number of varieties. It is not be wise to open a cafe in such regions.
+
+In order to avoid heavy competition cluster 10 and 13 shall be considered.
+Further analysing it is observed that cluster 10 is highly dense compared to that of cluster 13. Opening a cafe in dense region is highly recommended. 
+
+<p align="center">
+  <img src="images/5_bar.png">
+</p>
+<p align="center">
+  <img src="images/6_bar.png">
+</p>
+<p align="center">
+  <img src="images/7_bar.png">
+</p>
+<p align="center">
+  <img src="images/8_bar.png">
 </p>
