@@ -8,8 +8,8 @@
 *   [Data collection](#collection)
 *   [Data visualization](#visual)
 *   [Data understanding](#understanding)
-*   [Data analytics]
-*   [Model evaluation]
+*   [Data analytics](#analytics)
+*   [Model evaluation](#model)
 *   [Result analysis]
 
 ## **Business understanding** <a name="intro"></a>
@@ -40,3 +40,16 @@ Let's try to understand the available raw data. First let us **group the data** 
   <img src="images/2_venues.png">
 </p>
 
+## Data analytics <a name="analytics"></a>
+Now that we have grouped the data based on the neighborhood and picked top 10 common venues, we shall further gain some insights by **statistical means**. Since we have **unlabelled data points**, let us use **K-Means clustering algorithm** and try to group these data points to relevant clusters. 
+
+However when it comes to K-Means clustering, it is tricky to choose a right **K-value**. Let us run the clustering for various K values and pick the right value based on the optimal **silhouette score**.
+
+
+## Model Evaluation <a name="model"></a>
+
+The model is evaluated by **silhouette metrics** and an optimal **value of K** is chosen.
+
+<p align="center">
+  <img src="images/3_kval.png">
+</p>
