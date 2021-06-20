@@ -4,7 +4,7 @@
 
 
 *   [Business understanding](#intro)
-*   [Data requirements]
+*   [Data requirements](#requirements)
 *   [Data collection]
 *   [Data visualization]
 *   [Data understanding]
@@ -17,3 +17,7 @@
 Chennai is one of the largest cultural, economic and educational centres of South India. Chennai's various recreational spots attracts a huge amount of tourists. Considering the mobility across the city being it tourists, college students or office goers, starting a **cafe business** at a right spot will be a great success. 
 
 This project analyses various aspects such as **population density, recreational centers, existing food outlets,** etc. and suggests a right locality for opening a cafe.
+
+# Data requirements <a name="requirements"></a>
+
+Various aspects such as **list of areas** in the city, **population distribution**, **recreational spots**, available **restaurants** in each locality, etc. are required for analysing our problem. Let us discuss the collection of these data in the following section.
